@@ -7,7 +7,7 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const CONNECTION_URL = `mongodb+srv://AllenHarper:Nosedive55@cluster0.ibok7.mongodb.net/Cluster0?retryWrites=true&w=majority`;
+const CONNECTION_URL = `mongodb+srv://####:####@cluster0.ibok7.mongodb.net/Cluster0?retryWrites=true&w=majority`;
 
 const PORT = process.env.PORT || 3002;
 
